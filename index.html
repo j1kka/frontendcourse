@@ -1,34 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SimpleWheels Order</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Интерфейс календаря</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="header">
-                <h2>SimpleWheels</h2>
-                <span class="icon">👤</span> <!-- Замените на иконку профиля, если у вас есть -->
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <span class="day">Четверг, 7-е</span>
+            <span class="month-year">Январь 2016</span>
+        </div>
+        <div class="calendar-body">
+            <div class="days">
+                <span>ПН</span><span>ВТ</span><span>СР</span><span>ЧТ</span><span>ПТ</span><span>СБ</span><span>ВС</span>
             </div>
-            <p class="order-info">Thanks for your order #2357654, your package will be on its way shortly.</p>
-            <div class="item">
-                <span>Chapelli Vintage Single Speed</span>
-                <span class="price">$317</span>
+            <div class="dates">
+                <!-- Числа месяца будут добавлены позже с помощью JavaScript -->
             </div>
-            <div class="item">
-                <span>Castelli Arenberg Gel Gloves</span>
-                <span class="price">$39</span>
-            </div>
-            <div class="total">
-                <span>TOTAL</span>
-                <span class="price">$356</span>
-            </div>
-            <img src="bike.png" alt="Bicycle Image" class="product-image"> <!-- Замените на реальный путь к изображению -->
+        </div>
+        <div class="calendar-footer">
+            <span class="time">11:35</span>
+            <button class="add-btn">+</button>
+            <span class="temperature">12°C</span>
         </div>
     </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
-
