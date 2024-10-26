@@ -1,1 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2A9D8F;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    background-color: #FFFFFF;
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: left;
+}
+
+/* Заголовок */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+/* Информация о заказе */
+.order-info {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Информация о товарах */
+.item, .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.total {
+    font-weight: bold;
+}
+
+/* Изображение продукта */
+.product-image {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
+}
 
